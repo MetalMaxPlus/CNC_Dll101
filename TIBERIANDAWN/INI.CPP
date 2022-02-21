@@ -1670,6 +1670,8 @@ static void Create_Units(void)
 		if (!hptr->IsHuman)
 			continue;
 
+		//JC:It is branch dev modify
+
 #ifdef USE_GLYPHX_START_LOCATIONS
 		/*
 		** New code that respects the start locations passed in from GlyphX.
