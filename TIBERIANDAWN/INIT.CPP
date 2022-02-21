@@ -2072,12 +2072,12 @@ bool Parse_Command_Line(int argc, char *argv[])
 			puts("Command & Conquer (c) 1995, Westwood Studios\r\n"
 						"ParamŠtres:\r\n"
 //						"  -CD<chemin d'accŠs> = Recherche des fichiers dans le\r\n"
-//						"                        r‚pertoire indiqu‚.\r\n"
+//						"                        r‚pertoire indiqu?\r\n"
 						"  -DESTNET  = Sp‚cifier le num‚ro de r‚seau du systŠme de destination\r\n"
 						"              (Syntaxe: DESTNETxx.xx.xx.xx)\r\n"
-						"  -SOCKET   = ID poste r‚seau (0 … 16383)\r\n"
+						"  -SOCKET   = ID poste r‚seau (0 ?16383)\r\n"
 						"  -STEALTH  = Cacher les noms en mode multijoueurs (\"Mode Boss\")\r\n"
-						"  -MESSAGES = Autorise les messages ext‚rieurs … ce jeu.\r\n"
+						"  -MESSAGES = Autorise les messages ext‚rieurs ?ce jeu.\r\n"
 						"\r\n");
 	#else
 			puts("Command & Conquer (c) 1995, 1996 Westwood Studios\r\n"

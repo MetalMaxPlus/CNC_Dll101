@@ -417,7 +417,9 @@
     <ClCompile Include="FACING.CPP" />
     <ClCompile Include="FACTORY.CPP" />
     <ClCompile Include="FIELD.CPP" />
-    <ClCompile Include="FINDPATH.CPP" />
+    <ClCompile Include="FINDPATH.CPP">
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Disabled</Optimization>
+    </ClCompile>
     <ClCompile Include="FLASHER.CPP" />
     <ClCompile Include="FLY.CPP" />
     <ClCompile Include="FOOT.CPP" />
@@ -523,7 +525,9 @@
     <ClCompile Include="TURRET.CPP" />
     <ClCompile Include="TXTLABEL.CPP" />
     <ClCompile Include="UDATA.CPP" />
-    <ClCompile Include="UNIT.CPP" />
+    <ClCompile Include="UNIT.CPP">
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Disabled</Optimization>
+    </ClCompile>
     <ClCompile Include="UTRACKER.CPP" />
     <ClCompile Include="VECTOR.CPP" />
     <ClCompile Include="VISUDLG.CPP" />

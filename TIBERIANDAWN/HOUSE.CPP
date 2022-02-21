@@ -1434,9 +1434,13 @@ void HouseClass::AI(void)
 	** may not properly set IScan etc for each house; you have to go
 	** through each object's AI before it will be properly set.
 	*/
-	if (GameToPlay != GAME_NORMAL && !IsDefeated &&
-		!ActiveBScan && !ActiveAScan && !UScan && !ActiveIScan && Frame > 0) {
-		MPlayer_Defeated();
+	//JC:not check win/lose for debug purpose
+	if (0)
+	{
+		if (GameToPlay != GAME_NORMAL && !IsDefeated &&
+			!ActiveBScan && !ActiveAScan && !UScan && !ActiveIScan && Frame > 0) {
+			MPlayer_Defeated();
+		}
 	}
 
 	for (int index = 0; index < HouseTriggers[Class->House].Count(); index++) {

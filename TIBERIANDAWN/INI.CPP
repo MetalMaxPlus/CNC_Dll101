@@ -1665,6 +1665,10 @@ static void Create_Units(void)
 		hptr = HouseClass::As_Pointer(h);
 		if (!hptr)
 			continue;
+		
+		//JC:Just create player to debug path find
+		if (!hptr->IsHuman)
+			continue;
 
 #ifdef USE_GLYPHX_START_LOCATIONS
 		/*
